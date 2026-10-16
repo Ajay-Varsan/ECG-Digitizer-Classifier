@@ -1,0 +1,3350 @@
+{
+  "primary_disorder": "Normal Sinus Rhythm",
+  "cnn_class": "Normal Person ECG Images (284x12=3408)",
+  "confidence_pct": 53.4,
+  "color_hex": "#00E676",
+  "all_class_probs": {
+    "ECG Images of Myocardial Infarction Patients (240x12=2880)": 0.07696140557527542,
+    "ECG Images of Patient that have History of MI (172x12=2064)": 0.35919925570487976,
+    "ECG Images of Patient that have abnormal heartbeat (233x12=2796)": 0.027592778205871582,
+    "Normal Person ECG Images (284x12=3408)": 0.5344715714454651,
+    "Atrial Fibrillation": 0.00021485121396835893,
+    "Atrial Flutter": 2.0457060600165278e-05,
+    "Sinus Tachycardia": 2.1115538402227685e-05,
+    "Sinus Bradycardia": 3.320863106637262e-05,
+    "Complete Left Bundle Branch Block": 7.5326679507270455e-06,
+    "Complete Right Bundle Branch Block": 9.608193067833781e-05,
+    "Incomplete Right Bundle Branch Block": 0.00022028318198863417,
+    "First Degree AV Block": 7.052010187180713e-05,
+    "Left Anterior Fascicular Block": 0.0009586709784343839,
+    "Left Ventricular Hypertrophy": 8.258013258455321e-05,
+    "Left Atrial Enlargement": 4.968409484717995e-05
+  },
+  "metrics": {
+    "heart_rate_bpm": 138.753716232486,
+    "mean_rr_ms": 497.02458685598833,
+    "std_rr_ms": 100.81834607567474,
+    "rr_cv": 0.217758403623084,
+    "mean_pr_ms": 146.20750783074405,
+    "mean_qrs_ms": 94.29916060071864,
+    "n_crests": 149,
+    "n_troughs": 268,
+    "n_anomalies": 126,
+    "r_peak_count": 84,
+    "p_wave_count": 29,
+    "inverted_p_count": 100
+  },
+  "counts": {
+    "total_crests": 149,
+    "total_troughs": 268,
+    "total_anomalies": 126,
+    "r_peaks": 84,
+    "p_waves": 29,
+    "inverted_waves": 100,
+    "leads_detected": 13
+  },
+  "anomalies": [
+    {
+      "type": "ANOMALY_PVC_COMPLEX",
+      "name": "Anomalous Wide/Premature QRS (PVC) #6",
+      "kind": "anomaly",
+      "disorder_match": "Premature Ventricular Contraction (PVC)",
+      "duration_ms": 132.78388278388275,
+      "time_sec": 2.019230769230769,
+      "local_box": [
+        420,
+        157,
+        470,
+        212
+      ],
+      "global_box": [
+        442,
+        395,
+        492,
+        450
+      ],
+      "color_bgr": [
+        96,
+        27,
+        216
+      ],
+      "color_hex": "#D81B60",
+      "note": "QRS width 133ms (>130ms) with distorted morphology"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (201ms) #5",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 201.4652014652014,
+      "time_sec": 1.5567765567765568,
+      "local_box": [
+        338,
+        173,
+        386,
+        186
+      ],
+      "global_box": [
+        360,
+        411,
+        408,
+        424
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 201ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.9294871794871795,
+      "local_box": [
+        197,
+        201,
+        209,
+        211
+      ],
+      "global_box": [
+        219,
+        439,
+        231,
+        449
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.380952380952381,
+      "local_box": [
+        512,
+        204,
+        528,
+        216
+      ],
+      "global_box": [
+        534,
+        442,
+        550,
+        454
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.05952380952380953,
+      "local_box": [
+        7,
+        222,
+        19,
+        236
+      ],
+      "global_box": [
+        576,
+        460,
+        588,
+        474
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.347985347985348,
+      "local_box": [
+        68,
+        235,
+        84,
+        257
+      ],
+      "global_box": [
+        637,
+        473,
+        653,
+        495
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #3",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.5998168498168498,
+      "local_box": [
+        125,
+        221,
+        137,
+        233
+      ],
+      "global_box": [
+        694,
+        459,
+        706,
+        471
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #4",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.9111721611721613,
+      "local_box": [
+        191,
+        233,
+        207,
+        253
+      ],
+      "global_box": [
+        760,
+        471,
+        776,
+        491
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #5",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.9111721611721613,
+      "local_box": [
+        193,
+        233,
+        205,
+        253
+      ],
+      "global_box": [
+        762,
+        471,
+        774,
+        491
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #6",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.1263736263736264,
+      "local_box": [
+        238,
+        222,
+        254,
+        236
+      ],
+      "global_box": [
+        807,
+        460,
+        823,
+        474
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #7",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.1263736263736264,
+      "local_box": [
+        240,
+        222,
+        252,
+        236
+      ],
+      "global_box": [
+        809,
+        460,
+        821,
+        474
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #8",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.6254578754578755,
+      "local_box": [
+        347,
+        240,
+        363,
+        264
+      ],
+      "global_box": [
+        916,
+        478,
+        932,
+        502
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #9",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.6071428571428572,
+      "local_box": [
+        345,
+        221,
+        357,
+        233
+      ],
+      "global_box": [
+        914,
+        459,
+        926,
+        471
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #10",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.8635531135531136,
+      "local_box": [
+        399,
+        225,
+        415,
+        241
+      ],
+      "global_box": [
+        968,
+        463,
+        984,
+        479
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #11",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.8635531135531136,
+      "local_box": [
+        401,
+        225,
+        413,
+        241
+      ],
+      "global_box": [
+        970,
+        463,
+        982,
+        479
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #12",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.3351648351648353,
+      "local_box": [
+        502,
+        240,
+        518,
+        264
+      ],
+      "global_box": [
+        1071,
+        478,
+        1087,
+        502
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (220ms) #4",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 219.78021978021988,
+      "time_sec": 2.1062271062271063,
+      "local_box": [
+        458,
+        138,
+        510,
+        189
+      ],
+      "global_box": [
+        1574,
+        376,
+        1626,
+        427
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 220ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.7921245421245422,
+      "local_box": [
+        165,
+        209,
+        181,
+        221
+      ],
+      "global_box": [
+        1281,
+        447,
+        1297,
+        459
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.2225274725274726,
+      "local_box": [
+        261,
+        249,
+        273,
+        287
+      ],
+      "global_box": [
+        1377,
+        487,
+        1389,
+        525
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #3",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.9368131868131868,
+      "local_box": [
+        417,
+        253,
+        429,
+        293
+      ],
+      "global_box": [
+        1533,
+        491,
+        1545,
+        531
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (220ms) #1",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 219.78021978021977,
+      "time_sec": 0.21520146520146521,
+      "local_box": [
+        45,
+        135,
+        97,
+        236
+      ],
+      "global_box": [
+        1708,
+        373,
+        1760,
+        474
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 220ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.21520146520146521,
+      "local_box": [
+        41,
+        218,
+        53,
+        246
+      ],
+      "global_box": [
+        1704,
+        456,
+        1716,
+        484
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.5815018315018315,
+      "local_box": [
+        121,
+        233,
+        133,
+        271
+      ],
+      "global_box": [
+        1784,
+        471,
+        1796,
+        509
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #3",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.8470695970695971,
+      "local_box": [
+        177,
+        224,
+        193,
+        256
+      ],
+      "global_box": [
+        1840,
+        462,
+        1856,
+        494
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.29304029304029305,
+      "local_box": [
+        58,
+        236,
+        70,
+        294
+      ],
+      "global_box": [
+        80,
+        818,
+        92,
+        876
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.5173992673992674,
+      "local_box": [
+        105,
+        211,
+        121,
+        251
+      ],
+      "global_box": [
+        127,
+        793,
+        143,
+        833
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #3",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.4377289377289377,
+      "local_box": [
+        308,
+        166,
+        320,
+        178
+      ],
+      "global_box": [
+        330,
+        748,
+        342,
+        760
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #4",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.6575091575091576,
+      "local_box": [
+        354,
+        166,
+        370,
+        178
+      ],
+      "global_box": [
+        376,
+        748,
+        392,
+        760
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_PVC_COMPLEX",
+      "name": "Anomalous Wide/Premature QRS (PVC) #2",
+      "kind": "anomaly",
+      "disorder_match": "Premature Ventricular Contraction (PVC)",
+      "duration_ms": 119.04761904761901,
+      "time_sec": 0.47161172161172166,
+      "local_box": [
+        82,
+        160,
+        129,
+        190
+      ],
+      "global_box": [
+        651,
+        742,
+        698,
+        772
+      ],
+      "color_bgr": [
+        96,
+        27,
+        216
+      ],
+      "color_hex": "#D81B60",
+      "note": "QRS width 119ms (>130ms) with distorted morphology"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (215ms) #5",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 215.20146520146534,
+      "time_sec": 1.423992673992674,
+      "local_box": [
+        309,
+        134,
+        360,
+        167
+      ],
+      "global_box": [
+        878,
+        716,
+        929,
+        749
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 215ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.05952380952380953,
+      "local_box": [
+        7,
+        177,
+        19,
+        185
+      ],
+      "global_box": [
+        576,
+        759,
+        588,
+        767
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.32967032967032966,
+      "local_box": [
+        64,
+        180,
+        80,
+        192
+      ],
+      "global_box": [
+        633,
+        762,
+        649,
+        774
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #3",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.32967032967032966,
+      "local_box": [
+        66,
+        180,
+        78,
+        192
+      ],
+      "global_box": [
+        635,
+        762,
+        647,
+        774
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #4",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.7646520146520147,
+      "local_box": [
+        159,
+        180,
+        175,
+        192
+      ],
+      "global_box": [
+        728,
+        762,
+        744,
+        774
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #5",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.7646520146520147,
+      "local_box": [
+        161,
+        180,
+        173,
+        192
+      ],
+      "global_box": [
+        730,
+        762,
+        742,
+        774
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #6",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.0393772893772895,
+      "local_box": [
+        219,
+        178,
+        235,
+        188
+      ],
+      "global_box": [
+        788,
+        760,
+        804,
+        770
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_PVC_COMPLEX",
+      "name": "Anomalous Wide/Premature QRS (PVC) #6",
+      "kind": "anomaly",
+      "disorder_match": "Premature Ventricular Contraction (PVC)",
+      "duration_ms": 132.78388278388275,
+      "time_sec": 2.1336996336996337,
+      "local_box": [
+        445,
+        132,
+        495,
+        196
+      ],
+      "global_box": [
+        1561,
+        714,
+        1611,
+        778
+      ],
+      "color_bgr": [
+        96,
+        27,
+        216
+      ],
+      "color_hex": "#D81B60",
+      "note": "QRS width 133ms (>130ms) with distorted morphology"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.3067765567765568,
+      "local_box": [
+        61,
+        183,
+        73,
+        195
+      ],
+      "global_box": [
+        1177,
+        765,
+        1189,
+        777
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.5311355311355311,
+      "local_box": [
+        110,
+        211,
+        122,
+        243
+      ],
+      "global_box": [
+        1226,
+        793,
+        1238,
+        825
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #3",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.8241758241758242,
+      "local_box": [
+        172,
+        183,
+        188,
+        195
+      ],
+      "global_box": [
+        1288,
+        765,
+        1304,
+        777
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #4",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.2408424908424909,
+      "local_box": [
+        263,
+        216,
+        279,
+        250
+      ],
+      "global_box": [
+        1379,
+        798,
+        1395,
+        832
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #5",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.2408424908424909,
+      "local_box": [
+        265,
+        216,
+        277,
+        250
+      ],
+      "global_box": [
+        1381,
+        798,
+        1393,
+        832
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #6",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.5521978021978022,
+      "local_box": [
+        331,
+        185,
+        347,
+        199
+      ],
+      "global_box": [
+        1447,
+        767,
+        1463,
+        781
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #7",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.6666666666666667,
+      "local_box": [
+        358,
+        181,
+        370,
+        193
+      ],
+      "global_box": [
+        1474,
+        763,
+        1486,
+        775
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #8",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.9505494505494507,
+      "local_box": [
+        418,
+        211,
+        434,
+        243
+      ],
+      "global_box": [
+        1534,
+        793,
+        1550,
+        825
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #9",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.9505494505494507,
+      "local_box": [
+        420,
+        211,
+        432,
+        243
+      ],
+      "global_box": [
+        1536,
+        793,
+        1548,
+        825
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #10",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.261904761904762,
+      "local_box": [
+        486,
+        183,
+        502,
+        197
+      ],
+      "global_box": [
+        1602,
+        765,
+        1618,
+        779
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.0,
+      "local_box": [
+        0,
+        200,
+        6,
+        232
+      ],
+      "global_box": [
+        1657,
+        782,
+        1669,
+        814
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.6318681318681318,
+      "local_box": [
+        132,
+        167,
+        144,
+        175
+      ],
+      "global_box": [
+        1795,
+        749,
+        1807,
+        757
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #3",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.3186813186813187,
+      "local_box": [
+        282,
+        170,
+        294,
+        182
+      ],
+      "global_box": [
+        1945,
+        752,
+        1957,
+        764
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #4",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.032967032967033,
+      "local_box": [
+        438,
+        173,
+        450,
+        185
+      ],
+      "global_box": [
+        2101,
+        755,
+        2113,
+        767
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.7554945054945055,
+      "local_box": [
+        157,
+        169,
+        173,
+        187
+      ],
+      "global_box": [
+        179,
+        1095,
+        195,
+        1113
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.7554945054945055,
+      "local_box": [
+        159,
+        169,
+        171,
+        187
+      ],
+      "global_box": [
+        181,
+        1095,
+        193,
+        1113
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #3",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.043956043956044,
+      "local_box": [
+        222,
+        162,
+        234,
+        174
+      ],
+      "global_box": [
+        244,
+        1088,
+        256,
+        1100
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #4",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.3415750915750917,
+      "local_box": [
+        285,
+        170,
+        301,
+        188
+      ],
+      "global_box": [
+        307,
+        1096,
+        323,
+        1114
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #5",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.391941391941392,
+      "local_box": [
+        298,
+        159,
+        310,
+        171
+      ],
+      "global_box": [
+        320,
+        1085,
+        332,
+        1097
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #6",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.7536630036630036,
+      "local_box": [
+        377,
+        159,
+        389,
+        171
+      ],
+      "global_box": [
+        399,
+        1085,
+        411,
+        1097
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #7",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.0238095238095237,
+      "local_box": [
+        434,
+        167,
+        450,
+        185
+      ],
+      "global_box": [
+        456,
+        1093,
+        472,
+        1111
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #8",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.0238095238095237,
+      "local_box": [
+        436,
+        167,
+        448,
+        185
+      ],
+      "global_box": [
+        458,
+        1093,
+        470,
+        1111
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #9",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.371794871794872,
+      "local_box": [
+        510,
+        166,
+        526,
+        182
+      ],
+      "global_box": [
+        532,
+        1092,
+        548,
+        1108
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_PVC_COMPLEX",
+      "name": "Anomalous Wide/Premature QRS (PVC) #8",
+      "kind": "anomaly",
+      "disorder_match": "Premature Ventricular Contraction (PVC)",
+      "duration_ms": 132.7838827838832,
+      "time_sec": 2.2115384615384617,
+      "local_box": [
+        462,
+        128,
+        512,
+        167
+      ],
+      "global_box": [
+        1031,
+        1054,
+        1081,
+        1093
+      ],
+      "color_bgr": [
+        96,
+        27,
+        216
+      ],
+      "color_hex": "#D81B60",
+      "note": "QRS width 133ms (>130ms) with distorted morphology"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (220ms) #3",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 219.78021978021982,
+      "time_sec": 0.4166666666666667,
+      "local_box": [
+        89,
+        143,
+        141,
+        174
+      ],
+      "global_box": [
+        658,
+        1069,
+        710,
+        1100
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 220ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (201ms) #6",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 201.46520146520163,
+      "time_sec": 1.314102564102564,
+      "local_box": [
+        285,
+        131,
+        333,
+        169
+      ],
+      "global_box": [
+        854,
+        1057,
+        902,
+        1095
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 201ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (201ms) #7",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 201.4652014652014,
+      "time_sec": 1.643772893772894,
+      "local_box": [
+        357,
+        129,
+        405,
+        168
+      ],
+      "global_box": [
+        926,
+        1055,
+        974,
+        1094
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 201ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.2380952380952381,
+      "local_box": [
+        44,
+        183,
+        60,
+        209
+      ],
+      "global_box": [
+        613,
+        1109,
+        629,
+        1135
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.2380952380952381,
+      "local_box": [
+        46,
+        183,
+        58,
+        209
+      ],
+      "global_box": [
+        615,
+        1109,
+        627,
+        1135
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #3",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.6822344322344323,
+      "local_box": [
+        141,
+        162,
+        157,
+        176
+      ],
+      "global_box": [
+        710,
+        1088,
+        726,
+        1102
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #4",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.4166666666666667,
+      "local_box": [
+        85,
+        163,
+        97,
+        177
+      ],
+      "global_box": [
+        654,
+        1089,
+        666,
+        1103
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #5",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.314102564102564,
+      "local_box": [
+        281,
+        159,
+        293,
+        171
+      ],
+      "global_box": [
+        850,
+        1085,
+        862,
+        1097
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #6",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.643772893772894,
+      "local_box": [
+        353,
+        159,
+        365,
+        169
+      ],
+      "global_box": [
+        922,
+        1085,
+        934,
+        1095
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #7",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.06959706959707,
+      "local_box": [
+        446,
+        159,
+        458,
+        169
+      ],
+      "global_box": [
+        1015,
+        1085,
+        1027,
+        1095
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_PVC_COMPLEX",
+      "name": "Anomalous Wide/Premature QRS (PVC) #5",
+      "kind": "anomaly",
+      "disorder_match": "Premature Ventricular Contraction (PVC)",
+      "duration_ms": 123.62637362637363,
+      "time_sec": 1.4468864468864469,
+      "local_box": [
+        295,
+        108,
+        343,
+        170
+      ],
+      "global_box": [
+        1411,
+        1034,
+        1459,
+        1096
+      ],
+      "color_bgr": [
+        96,
+        27,
+        216
+      ],
+      "color_hex": "#D81B60",
+      "note": "QRS width 124ms (>130ms) with distorted morphology"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (215ms) #3",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 215.20146520146523,
+      "time_sec": 0.5357142857142857,
+      "local_box": [
+        115,
+        111,
+        166,
+        197
+      ],
+      "global_box": [
+        1231,
+        1037,
+        1282,
+        1123
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 215ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (206ms) #5",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 206.04395604395597,
+      "time_sec": 1.2408424908424909,
+      "local_box": [
+        269,
+        110,
+        318,
+        206
+      ],
+      "global_box": [
+        1385,
+        1036,
+        1434,
+        1132
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 206ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (220ms) #7",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 219.78021978021988,
+      "time_sec": 2.1245421245421245,
+      "local_box": [
+        462,
+        98,
+        514,
+        125
+      ],
+      "global_box": [
+        1578,
+        1024,
+        1630,
+        1051
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 220ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.5357142857142857,
+      "local_box": [
+        111,
+        180,
+        123,
+        206
+      ],
+      "global_box": [
+        1227,
+        1106,
+        1239,
+        1132
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.0210622710622712,
+      "local_box": [
+        215,
+        164,
+        231,
+        180
+      ],
+      "global_box": [
+        1331,
+        1090,
+        1347,
+        1106
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #3",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.0210622710622712,
+      "local_box": [
+        217,
+        164,
+        229,
+        180
+      ],
+      "global_box": [
+        1333,
+        1090,
+        1345,
+        1106
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #4",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.2408424908424909,
+      "local_box": [
+        265,
+        187,
+        277,
+        217
+      ],
+      "global_box": [
+        1381,
+        1113,
+        1393,
+        1143
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #5",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.6804029304029304,
+      "local_box": [
+        359,
+        159,
+        375,
+        173
+      ],
+      "global_box": [
+        1475,
+        1085,
+        1491,
+        1099
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #6",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.458791208791209,
+      "local_box": [
+        529,
+        153,
+        545,
+        163
+      ],
+      "global_box": [
+        1645,
+        1079,
+        1661,
+        1089
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_PVC_COMPLEX",
+      "name": "Anomalous Wide/Premature QRS (PVC) #5",
+      "kind": "anomaly",
+      "disorder_match": "Premature Ventricular Contraction (PVC)",
+      "duration_ms": 132.78388278388275,
+      "time_sec": 2.326007326007326,
+      "local_box": [
+        487,
+        123,
+        537,
+        270
+      ],
+      "global_box": [
+        2150,
+        1049,
+        2200,
+        1196
+      ],
+      "color_bgr": [
+        96,
+        27,
+        216
+      ],
+      "color_hex": "#D81B60",
+      "note": "QRS width 133ms (>130ms) with distorted morphology"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (211ms) #2",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 210.62271062271066,
+      "time_sec": 0.608974358974359,
+      "local_box": [
+        131,
+        107,
+        181,
+        188
+      ],
+      "global_box": [
+        1794,
+        1033,
+        1844,
+        1114
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 211ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.20604395604395606,
+      "local_box": [
+        37,
+        180,
+        53,
+        198
+      ],
+      "global_box": [
+        1700,
+        1106,
+        1716,
+        1124
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.608974358974359,
+      "local_box": [
+        127,
+        176,
+        139,
+        192
+      ],
+      "global_box": [
+        1790,
+        1102,
+        1802,
+        1118
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #3",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.467948717948718,
+      "local_box": [
+        531,
+        238,
+        547,
+        294
+      ],
+      "global_box": [
+        2194,
+        1164,
+        2210,
+        1220
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #4",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.165750915750916,
+      "local_box": [
+        467,
+        191,
+        479,
+        215
+      ],
+      "global_box": [
+        2130,
+        1117,
+        2142,
+        1141
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #5",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.5,
+      "local_box": [
+        538,
+        239,
+        547,
+        297
+      ],
+      "global_box": [
+        2201,
+        1165,
+        2210,
+        1223
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_PVC_COMPLEX",
+      "name": "Anomalous Wide/Premature QRS (PVC) #4",
+      "kind": "anomaly",
+      "disorder_match": "Premature Ventricular Contraction (PVC)",
+      "duration_ms": 118.72146118721471,
+      "time_sec": 1.9041095890410957,
+      "local_box": [
+        396,
+        78,
+        443,
+        168
+      ],
+      "global_box": [
+        418,
+        1349,
+        465,
+        1439
+      ],
+      "color_bgr": [
+        96,
+        27,
+        216
+      ],
+      "color_hex": "#D81B60",
+      "note": "QRS width 119ms (>130ms) with distorted morphology"
+    },
+    {
+      "type": "ANOMALY_PVC_COMPLEX",
+      "name": "Anomalous Wide/Premature QRS (PVC) #6",
+      "kind": "anomaly",
+      "disorder_match": "Premature Ventricular Contraction (PVC)",
+      "duration_ms": 114.15525114155267,
+      "time_sec": 2.6301369863013697,
+      "local_box": [
+        555,
+        77,
+        601,
+        162
+      ],
+      "global_box": [
+        577,
+        1348,
+        623,
+        1433
+      ],
+      "color_bgr": [
+        96,
+        27,
+        216
+      ],
+      "color_hex": "#D81B60",
+      "note": "QRS width 114ms (>130ms) with distorted morphology"
+    },
+    {
+      "type": "ANOMALY_PVC_COMPLEX",
+      "name": "Anomalous Wide/Premature QRS (PVC) #18",
+      "kind": "anomaly",
+      "disorder_match": "Premature Ventricular Contraction (PVC)",
+      "duration_ms": 114.15525114155223,
+      "time_sec": 8.963470319634702,
+      "local_box": [
+        1946,
+        93,
+        1992,
+        184
+      ],
+      "global_box": [
+        1968,
+        1364,
+        2014,
+        1455
+      ],
+      "color_bgr": [
+        96,
+        27,
+        216
+      ],
+      "color_hex": "#D81B60",
+      "note": "QRS width 114ms (>130ms) with distorted morphology"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (205ms) #4",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 205.47945205479445,
+      "time_sec": 1.6986301369863013,
+      "local_box": [
+        370,
+        80,
+        419,
+        104
+      ],
+      "global_box": [
+        392,
+        1351,
+        441,
+        1375
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 205ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (219ms) #5",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 219.17808219178082,
+      "time_sec": 2.150684931506849,
+      "local_box": [
+        469,
+        88,
+        521,
+        176
+      ],
+      "global_box": [
+        491,
+        1359,
+        543,
+        1447
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 219ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (219ms) #9",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 219.17808219178082,
+      "time_sec": 3.767123287671233,
+      "local_box": [
+        823,
+        107,
+        875,
+        118
+      ],
+      "global_box": [
+        845,
+        1378,
+        897,
+        1389
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 219ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (219ms) #12",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 219.17808219178082,
+      "time_sec": 5.894977168949771,
+      "local_box": [
+        1289,
+        105,
+        1341,
+        117
+      ],
+      "global_box": [
+        1311,
+        1376,
+        1363,
+        1388
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 219ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (210ms) #14",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 210.04566210045627,
+      "time_sec": 7.063926940639269,
+      "local_box": [
+        1545,
+        107,
+        1595,
+        137
+      ],
+      "global_box": [
+        1567,
+        1378,
+        1617,
+        1408
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 210ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_PROLONGED_PR",
+      "name": "Prolonged PR Interval (210ms) #16",
+      "kind": "anomaly",
+      "disorder_match": "First-Degree AV Block",
+      "duration_ms": 210.04566210045715,
+      "time_sec": 8.136986301369863,
+      "local_box": [
+        1780,
+        109,
+        1830,
+        178
+      ],
+      "global_box": [
+        1802,
+        1380,
+        1852,
+        1449
+      ],
+      "color_bgr": [
+        64,
+        110,
+        255
+      ],
+      "color_hex": "#FF6E40",
+      "note": "Prolonged PR 210ms > 200ms"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #1",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.3059360730593607,
+      "local_box": [
+        61,
+        231,
+        73,
+        291
+      ],
+      "global_box": [
+        83,
+        1502,
+        95,
+        1562
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #2",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.5753424657534246,
+      "local_box": [
+        118,
+        199,
+        134,
+        255
+      ],
+      "global_box": [
+        140,
+        1470,
+        156,
+        1526
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #3",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 0.908675799086758,
+      "local_box": [
+        193,
+        165,
+        205,
+        199
+      ],
+      "global_box": [
+        215,
+        1436,
+        227,
+        1470
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #4",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 1.1187214611872145,
+      "local_box": [
+        237,
+        154,
+        253,
+        180
+      ],
+      "global_box": [
+        259,
+        1425,
+        275,
+        1451
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #5",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.146118721461187,
+      "local_box": [
+        462,
+        157,
+        478,
+        187
+      ],
+      "global_box": [
+        484,
+        1428,
+        500,
+        1458
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #6",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.150684931506849,
+      "local_box": [
+        465,
+        157,
+        477,
+        187
+      ],
+      "global_box": [
+        487,
+        1428,
+        499,
+        1458
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #7",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.4657534246575343,
+      "local_box": [
+        532,
+        171,
+        548,
+        209
+      ],
+      "global_box": [
+        554,
+        1442,
+        570,
+        1480
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #8",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.452054794520548,
+      "local_box": [
+        531,
+        184,
+        543,
+        230
+      ],
+      "global_box": [
+        553,
+        1455,
+        565,
+        1501
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #9",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.963470319634703,
+      "local_box": [
+        641,
+        151,
+        657,
+        177
+      ],
+      "global_box": [
+        663,
+        1422,
+        679,
+        1448
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #10",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 2.963470319634703,
+      "local_box": [
+        643,
+        151,
+        655,
+        177
+      ],
+      "global_box": [
+        665,
+        1422,
+        677,
+        1448
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #11",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 3.2054794520547945,
+      "local_box": [
+        694,
+        162,
+        710,
+        194
+      ],
+      "global_box": [
+        716,
+        1433,
+        732,
+        1465
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #12",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 3.3607305936073057,
+      "local_box": [
+        730,
+        154,
+        742,
+        180
+      ],
+      "global_box": [
+        752,
+        1425,
+        764,
+        1451
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #13",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 3.6940639269406392,
+      "local_box": [
+        801,
+        166,
+        817,
+        200
+      ],
+      "global_box": [
+        823,
+        1437,
+        839,
+        1471
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #14",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 4.1324200913242,
+      "local_box": [
+        897,
+        145,
+        913,
+        167
+      ],
+      "global_box": [
+        919,
+        1416,
+        935,
+        1438
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #15",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 4.616438356164383,
+      "local_box": [
+        1005,
+        128,
+        1017,
+        138
+      ],
+      "global_box": [
+        1027,
+        1399,
+        1039,
+        1409
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #16",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 4.831050228310502,
+      "local_box": [
+        1050,
+        148,
+        1066,
+        170
+      ],
+      "global_box": [
+        1072,
+        1419,
+        1088,
+        1441
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #17",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 5.251141552511415,
+      "local_box": [
+        1144,
+        134,
+        1156,
+        146
+      ],
+      "global_box": [
+        1166,
+        1405,
+        1178,
+        1417
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #18",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 5.5159817351598175,
+      "local_box": [
+        1200,
+        146,
+        1216,
+        166
+      ],
+      "global_box": [
+        1222,
+        1417,
+        1238,
+        1437
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #19",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 6.219178082191781,
+      "local_box": [
+        1354,
+        149,
+        1370,
+        173
+      ],
+      "global_box": [
+        1376,
+        1420,
+        1392,
+        1444
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #20",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 6.926940639269406,
+      "local_box": [
+        1509,
+        144,
+        1525,
+        164
+      ],
+      "global_box": [
+        1531,
+        1415,
+        1547,
+        1435
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #21",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 7.063926940639269,
+      "local_box": [
+        1541,
+        128,
+        1553,
+        138
+      ],
+      "global_box": [
+        1563,
+        1399,
+        1575,
+        1409
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #22",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 7.607305936073059,
+      "local_box": [
+        1658,
+        145,
+        1674,
+        165
+      ],
+      "global_box": [
+        1680,
+        1416,
+        1696,
+        1436
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #23",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 8.429223744292237,
+      "local_box": [
+        1838,
+        172,
+        1854,
+        210
+      ],
+      "global_box": [
+        1860,
+        1443,
+        1876,
+        1481
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #24",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 8.136986301369863,
+      "local_box": [
+        1776,
+        159,
+        1788,
+        189
+      ],
+      "global_box": [
+        1798,
+        1430,
+        1810,
+        1460
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #25",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 8.602739726027396,
+      "local_box": [
+        1876,
+        159,
+        1892,
+        189
+      ],
+      "global_box": [
+        1898,
+        1430,
+        1914,
+        1460
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #26",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 8.602739726027396,
+      "local_box": [
+        1878,
+        159,
+        1890,
+        189
+      ],
+      "global_box": [
+        1900,
+        1430,
+        1912,
+        1460
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #27",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 8.922374429223744,
+      "local_box": [
+        1946,
+        162,
+        1962,
+        194
+      ],
+      "global_box": [
+        1968,
+        1433,
+        1984,
+        1465
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #28",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 8.844748858447488,
+      "local_box": [
+        1931,
+        157,
+        1943,
+        187
+      ],
+      "global_box": [
+        1953,
+        1428,
+        1965,
+        1458
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    },
+    {
+      "type": "ANOMALY_INVERTED_P",
+      "name": "Inverted Retrograde P-Wave #29",
+      "kind": "anomaly",
+      "disorder_match": "Junctional Rhythm",
+      "time_sec": 9.182648401826484,
+      "local_box": [
+        2003,
+        164,
+        2019,
+        198
+      ],
+      "global_box": [
+        2025,
+        1435,
+        2041,
+        1469
+      ],
+      "color_bgr": [
+        156,
+        144,
+        120
+      ],
+      "color_hex": "#78909C",
+      "note": "Negative P-wave deflection indicating junctional/retrograde conduction"
+    }
+  ]
+}

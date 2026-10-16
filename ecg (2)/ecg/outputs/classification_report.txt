@@ -1,0 +1,24 @@
+15-CLASS ECG DISORDER CLASSIFICATION REPORT
+=======================================================
+
+              precision    recall  f1-score   support
+
+          MI       0.28      0.31      0.30        96
+  History-MI       0.34      0.24      0.28        86
+ Abnormal-HB       0.52      0.25      0.34        95
+      Normal       0.76      0.25      0.37       102
+        AFIB       0.42      0.60      0.49        53
+   A-Flutter       0.33      0.62      0.43         8
+      S-Tach       0.51      0.66      0.58        53
+      S-Brad       0.58      0.60      0.59        53
+       CLBBB       0.80      0.85      0.82        52
+       CRBBB       0.53      0.74      0.62        53
+       IRBBB       0.28      0.21      0.24        53
+        1AVB       0.22      0.04      0.07        52
+        LAFB       0.35      0.79      0.49        52
+         LVH       0.32      0.46      0.38        52
+         LAE       0.04      0.09      0.05        22
+
+    accuracy                           0.42       882
+   macro avg       0.42      0.45      0.40       882
+weighted avg       0.45      0.42      0.40       882

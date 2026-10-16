@@ -1,0 +1,36 @@
+# Python virtual environments
+.venv/
+venv/
+**/venv/
+**/.venv/
+env/
+**/env/
+ENV/
+
+# Zip and archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Python bytecode and cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Temporary artifacts and scratch files
+scratch/
+**/scratch/
+*.log
+.system_generated/
+
+# Data cache & redundant duplicate unzips
+dataset_cache/
+**/dataset_cache/
+Open-ECG-Digitizer-main/Open-ECG-Digitizer-main/
+
+# OS metadata
+.DS_Store
+Thumbs.db

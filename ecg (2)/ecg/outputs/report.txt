@@ -1,0 +1,27 @@
+ECG CNN + BOUNDING BOX ANALYSIS REPORT
+==================================================
+
+Primary Disorder : Normal Sinus Rhythm
+Category         : Normal
+CNN Confidence   : 53.4%
+Color Code       : #00E676
+
+Cardiac Metrics:
+  Heart Rate   : 139 BPM
+  PR Interval  : 146 ms
+  QRS Duration : 94 ms
+
+Top-5 CNN Probabilities:
+   53.45%  Normal Sinus Rhythm
+   35.92%  History of Myocardial Infarction
+    7.70%  Myocardial Infarction
+    2.76%  Abnormal Heartbeat
+    0.10%  Left Anterior Fascicular Block
+
+Clinical Causes:
+  - Normal resting cardiac conduction
+
+Bounding Boxes:
+  Crests   : 149
+  Troughs  : 268
+  Anomalies: 126

@@ -1,0 +1,15 @@
+ECG Images of Myocardial Infarction Patients (240x12=2880)
+ECG Images of Patient that have History of MI (172x12=2064)
+ECG Images of Patient that have abnormal heartbeat (233x12=2796)
+Normal Person ECG Images (284x12=3408)
+Atrial Fibrillation
+Atrial Flutter
+Sinus Tachycardia
+Sinus Bradycardia
+Complete Left Bundle Branch Block
+Complete Right Bundle Branch Block
+Incomplete Right Bundle Branch Block
+First Degree AV Block
+Left Anterior Fascicular Block
+Left Ventricular Hypertrophy
+Left Atrial Enlargement
